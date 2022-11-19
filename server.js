@@ -114,7 +114,7 @@ app.get('/animals/:id/edit' ,(req,res) => {
 ///////////////////
 //    UPDATE    //
 //////////////////
-app.put('/animal/:id', (req,res) => {
+app.put('/animals/:id', (req,res) => {
 
     // Get the ID from params
     const id = req.params.id
