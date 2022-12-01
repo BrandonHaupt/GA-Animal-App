@@ -23,7 +23,7 @@ app.use('/static', express.static('public')) // Allows the use for css
 //               ROUTES                //
 /////////////////////////////////////////
 app.get('/', (req,res) => {
-    res.send('Your server is running!')
+    res.redirect('/animals')
 })
 
 
